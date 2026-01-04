@@ -19,17 +19,21 @@ Government Open Data Quality Assessment via Automated Profilers/
 │
 ├── dags/
 │ └── profiling_dag.py
+│
 ├── src/
-│ ├── app.py/
-│ ├── ingest.py/
+│ ├── app.py
+│ ├── ingest.py
 │ ├── Touch.py
-│ ├── profiling.py
+│ └── profiling.py
+│
 ├── data/
-│ ├── government-procurement-via-gebiz.csv/
+│ └── government-procurement-via-gebiz.csv
+│
 ├── figures/
-├── tables/ │
+├── tables/
+│
 ├── requirements.txt
-├── README.md
+└── README.md
 
 ---
 
