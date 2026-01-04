@@ -9,9 +9,9 @@ It allows users to upload a CSV file and generate an interactive profiling repor
 
 ## Team Structure
 
-# Ruben Dario Nuñez Maldonado - Technical Lead
+### Ruben Dario Nuñez Maldonado - Technical Lead
 
-# Jorge Eduardo Gomez Garnica - Documentation & Presentation Lead
+### Jorge Eduardo Gomez Garnica - Documentation & Presentation Lead
 
 ---
 
@@ -31,7 +31,7 @@ https://www.kaggle.com/datasets/shivamb/government-procurement-dataset
 
 5. How can standardized scoring and reports inform portal curation, publisher practices, and user decision-making in open data ecosystems?
 
-## 3. Requirements
+## 4. Requirements
 
 - Python 3.11 or higher
 - Streamlit
@@ -43,7 +43,7 @@ The required Python packages are listed in `requirements.txt`.
 
 ---
 
-## 4. Setup Instructions
+## 5. Setup Instructions
 
     ### Step 1 – Clone the repository
         git clone <your-repo-url>
@@ -65,13 +65,13 @@ pip install --upgrade pip
     ## Step 5 – Install dependencies
         pip install -r requirements.txt
 
-## 5. Running the Application
+## 6. Running the Application
 
     streamlit run app.py
     The browser will open automatically.
     Upload your CSV file to generate an interactive profiling report.
 
-## 5. Using the App
+## 7. Using the App
 
     ## Step 1. Upload a CSV file using the file uploader.
     ## Step 2. Preview the first rows of your dataset.
@@ -81,20 +81,20 @@ pip install --upgrade pip
         - Missing values detection
         - Distribution plots
 
-## 6. Reproducing the Environment
+## 8. Reproducing the Environment
 
     python3.11 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
 
-## 7. Notes
+## 9. Notes
 
     Always activate the virtual environment before running the app.
     SSL warnings (NotOpenSSLWarning) on macOS can be ignored.
     Python ≥ 3.10 is required for streamlit-ydata-profiling.
     Ensure you run the app using streamlit run app.py, not /usr/bin/python3 app.py.
 
-## 8. Folder Structure Explanation
+## 10. Folder Structure Explanation
 
     Government Open Data Quality Assessment via Automated Profilers/
 
@@ -117,7 +117,7 @@ pip install --upgrade pip
 ├── requirements.txt
 └── README.md
 
-## 9. References
+## 11. References
 
     YData Profiling Documentation
     Streamlit Documentation
