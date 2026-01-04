@@ -15,13 +15,20 @@ It allows users to upload a CSV file and generate an interactive profiling repor
 
 ## 1. Project Structure
 
-Government Open Data Quality Assessment via Automated Profilers
-│
-├── app.py # Main Streamlit app
-├── requirements.txt # Project dependencies
-├── README.md # This manual
-└── data/
-└── example.csv # Optional example dataset
+Government Open Data Quality Assessment via Automated Profilers/
+├── dags/
+│ └── profiling_dag.py
+├── src/
+│ ├── app.py/
+│ ├── ingest.py/
+│ ├── Touch.py
+│ ├── profiling.py
+├── data/
+│ ├── government-procurement-via-gebiz.csv/
+├── figures/
+├── tables/ │
+├── requirements.txt
+├── README.md
 
 ---
 
