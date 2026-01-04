@@ -1,6 +1,6 @@
-# Data Engineering Project
-
 # Government Open Data Quality Assessment via Automated Profilers
+
+## 1. Project Overview
 
 This project is a **data profiling web application** built with **Python 3.11**, **Streamlit**, **Pandas** and **YData Profiling**.  
 It allows users to upload a CSV file and generate an interactive profiling report.
@@ -13,31 +13,25 @@ It allows users to upload a CSV file and generate an interactive profiling repor
 
 # Jorge Eduardo Gomez Garnica - Documentation & Presentation Lead
 
-## 1. Project Structure
-
-Government Open Data Quality Assessment via Automated Profilers/
-│
-├── dags/
-│ └── profiling_dag.py
-│
-├── src/
-│ ├── app.py
-│ ├── ingest.py
-│ ├── Touch.py
-│ └── profiling.py
-│
-├── data/
-│ └── government-procurement-via-gebiz.csv
-│
-├── figures/
-├── tables/
-│
-├── requirements.txt
-└── README.md
-
 ---
 
-## 2. Requirements
+## 2. Dataset
+
+https://www.kaggle.com/datasets/shivamb/government-procurement-dataset
+
+## 3. Research Questions
+
+1. How do core quality dimensions such as completeness, uniqueness, consistency, and validity vary across open government tabular datasets?
+
+2. Which metric definitions are better to define if a dataset is appropriate for use across diverse civic domains?
+
+3. How can we combine multiple dimensions into an index that generalizes across datasets?
+
+4. What preprocessing and profiling strategies enable automated, scalable assessment across heterogeneous schemas and APIs?
+
+5. How can standardized scoring and reports inform portal curation, publisher practices, and user decision-making in open data ecosystems?
+
+## 3. Requirements
 
 - Python 3.11 or higher
 - Streamlit
@@ -49,7 +43,7 @@ The required Python packages are listed in `requirements.txt`.
 
 ---
 
-## 3. Setup Instructions
+## 4. Setup Instructions
 
     ### Step 1 – Clone the repository
         git clone <your-repo-url>
@@ -71,7 +65,7 @@ pip install --upgrade pip
     ## Step 5 – Install dependencies
         pip install -r requirements.txt
 
-## 4. Running the Application
+## 5. Running the Application
 
     streamlit run app.py
     The browser will open automatically.
@@ -100,7 +94,30 @@ pip install --upgrade pip
     Python ≥ 3.10 is required for streamlit-ydata-profiling.
     Ensure you run the app using streamlit run app.py, not /usr/bin/python3 app.py.
 
-## 8. References
+## 8. Folder Structure Explanation
+
+    Government Open Data Quality Assessment via Automated Profilers/
+
+│
+├── dags/
+│ └── profiling_dag.py
+│
+├── src/
+│ ├── app.py
+│ ├── ingest.py
+│ ├── Touch.py
+│ └── profiling.py
+│
+├── data/
+│ └── government-procurement-via-gebiz.csv
+│
+├── figures/
+├── tables/
+│
+├── requirements.txt
+└── README.md
+
+## 9. References
 
     YData Profiling Documentation
     Streamlit Documentation
